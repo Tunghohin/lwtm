@@ -1,3 +1,5 @@
+**lwtm** is a lightweight lib of debugging macros that supports outputting debugging information to json format.
+
 ## usage:
 ```c++
 EXPR_TEST_MACRO(expr, callable_function_if_expr_is_true, callable_function_if_expr_is_false);
