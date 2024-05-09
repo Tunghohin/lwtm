@@ -1,5 +1,10 @@
 ## usage:
 ```c++
+EXPR_TEST_MACRO(expr, callable_function_if_expr_is_true, callable_function_if_expr_is_false);
+```
+
+## example:
+```c++
 constexpr auto try_parse_string_with_escape(std::string_view const str)
 -> std::optional<std::string> {
     ...
